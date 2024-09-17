@@ -78,4 +78,16 @@ a:hover, a:focus {
     background-color: #509fff;
     color: #ffffff;
   }
-  
+  header {
+    background-color: mistyrose;
+    padding: 10px;
+    margin: 10px; 
+    border-bottom: 3px solid #4a4a4a;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
