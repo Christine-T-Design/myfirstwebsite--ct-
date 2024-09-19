@@ -117,3 +117,13 @@ a:hover, a:focus {
   #hero {
     background-color: #23253c;
   }
+  .hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
