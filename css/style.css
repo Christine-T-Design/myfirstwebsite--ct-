@@ -107,6 +107,7 @@ header {
 /* Layout styling */
 .container {
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .row {
@@ -182,6 +183,7 @@ footer {
 
 .projectimgs {
     max-width: 250px;
+    padding: 0 15px;
 }
 
 .final {
