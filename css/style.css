@@ -60,7 +60,8 @@ a:focus {
     /* Underlining when hovering over a link */
 }
 
-.button {
+.button,
+.button:visited {
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
     background-color: #064789;
