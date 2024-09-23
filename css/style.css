@@ -104,10 +104,6 @@ header {
 
 .container {
     max-width: 1200px;
-}
-
-/* Layout styling */
-.container {
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -146,16 +142,6 @@ nav>ul>li>a {
     background-color: #427aa1;
 }
 
-.hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #work {
     background-color: bluevilet3;
@@ -192,6 +178,67 @@ footer {
     text-align: center;
 }
 
+.berlin-illustration {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes color-change {
+    from {
+        fill: #edc655;
+    }
+
+    to {
+        fill: #f76414;
+    }
+}
+
+.sun {
+    animation-duration: 2s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+@keyframes cloud-move {
+    from {
+        transform: translate(0, 50px);
+    }
+
+    to {
+        transform: translate(200px, 50px);
+    }
+}
+
+.cloud-front {
+    animation-duration: 25s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+    from {
+        transform: translate(446px, 48px);
+    }
+
+    to {
+        transform: translate(100px, 48px);
+    }
+}
+
+.cloud-back {
+    animation-duration: 45s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -206,17 +253,25 @@ Medium devices (640px and larger)
         float: right;
         margin-top: 4px;
     }
+
     #hero span {
         display: block;
-      }
-      .col-md-6 {
+    }
+
+    .col-md-6 {
         width: 50%;
-      }
-      .row::after {
+    }
+
+    .row::after {
         content: "";
         clear: both;
         display: table;
-      }
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0px 10px;
+    }
 }
 
 /* ==============================
