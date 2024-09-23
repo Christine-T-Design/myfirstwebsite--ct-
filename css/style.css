@@ -7,7 +7,7 @@ Secondary Color (Light Steel Blue): #B0C4DE;
 }
 
 body {
-    background-color: #ebf2fa;
+    background-color: #ffffff;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -120,6 +120,7 @@ header {
 
 .logo {
     max-width: 250px;
+    max-height: 250px;
 }
 
 nav>ul {
@@ -162,7 +163,7 @@ footer {
 }
 
 #aboutme {
-    text-align: center;
+    text-align: center
 }
 
 #endingmessage {
