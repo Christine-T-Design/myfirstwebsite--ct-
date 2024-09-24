@@ -317,11 +317,11 @@ Large devices (1024px or larger)
     }
 
     .col-lg-7 {
-        width: 60%;
+        width: 58.33%;
     }
 
     .col-lg-5 {
-        width: 40%
+        width: 41.66%
     }
 
     .row::after {
