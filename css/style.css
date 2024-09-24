@@ -256,7 +256,7 @@ Medium devices (640px and larger)
         font-style: normal;
         color: midnigtblue;
     }
-    
+
     header {
         text-align: unset;
         padding: 15px 0 13px;
@@ -296,10 +296,11 @@ Large devices (1024px or larger)
         background-color: #ffffff;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         font-style: normal;
         color: midnigtblue;
     }
+
     header {
         text-align: unset;
         padding: 15px 0 13px;
@@ -315,8 +316,12 @@ Large devices (1024px or larger)
         display: block;
     }
 
-    .col-md-7 {
-        width: 58.33%;
+    .col-lg-7 {
+        width: 60%;
+    }
+
+    .col-lg-5 {
+        width: 40%
     }
 
     .row::after {
@@ -327,8 +332,9 @@ Large devices (1024px or larger)
 
     [class*="col-"] {
         float: left;
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
+
 }
 
 /* ==============================
