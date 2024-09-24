@@ -316,7 +316,7 @@ Large devices (1024px or larger)
     }
 
     .col-md-7 {
-        width: 60%;
+        width: 58.33%;
     }
 
     .row::after {
