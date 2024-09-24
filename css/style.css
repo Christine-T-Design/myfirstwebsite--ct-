@@ -119,9 +119,15 @@ header {
 }
 
 .logo {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 150px;
+    max-height: 150px;
 }
+
+.profile_picture {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 
 nav>ul {
     list-style-type: none;
