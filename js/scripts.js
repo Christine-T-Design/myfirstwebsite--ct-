@@ -1,4 +1,4 @@
 <script>
   alert("Hello");
 </script>
-console.log("Hello Everyone!")
+console.log("Hello Everyone!");
