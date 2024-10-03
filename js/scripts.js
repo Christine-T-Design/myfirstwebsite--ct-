@@ -16,7 +16,6 @@ let x; //this is a declaration;
 let y; // this is a declaration; 
 
 
-let x=123; //this is both a declaration and an assignment; 
 
 let age = 25;
 let price = 10.99;
