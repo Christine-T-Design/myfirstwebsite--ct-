@@ -17,15 +17,16 @@ let y; // this is a declaration;
 
 
 
-//let age = 25;
-//let price = 10.99;
-//let gpa = 2.1;
+let age = 25;
+let price = 10.99;
+let gpa = 2.1;
 console.log(`You are ${age}`);
 console.log(`The price is ${price}`);
-console.log(`Your gpa is${gpa}`);
+console.log(`Your gpa is ${gpa}`);
 
 let firstName = "Bro"; 
 //why is this a string;
 console.log(typeof firstName);
-console.log(`firstName`);
+console.log(firstName);
+console.log
 
