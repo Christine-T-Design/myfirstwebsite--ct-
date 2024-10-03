@@ -13,3 +13,5 @@ let isStudent = false;
 document.getElementById("p1").textContent = `Youe name is ${fullName}`;
 document.getElementById("p2").textContent = `You are ${age}`;
 document.getElementById("p3").textContent = `Enrolled ${isStudent}`;
+
+console.log(thisVariableDoesntExist); //Will output undefined; 
