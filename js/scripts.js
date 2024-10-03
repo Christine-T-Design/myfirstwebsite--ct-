@@ -26,7 +26,7 @@ console.log(`Your gpa is${gpa}`);
 
 let firstName = "Bro"; //why is this a string;
 console.log(typeof firstName);
-console.log("Your name is ${firstName}");
+console.log(`Your name is ${firstName}');
 //strings can include numbers, but we can't use those numbers in math;
 
 //booleans are either true or false;
