@@ -24,6 +24,6 @@ let y; // this is a declaration;
 let firstName = "Bro"; 
 //why is this a string;
 console.log(typeof firstName);
-console.log('Your name is ${firstName}`);
+console.log(`Your name is ${firstName}`);
 console.log
 
