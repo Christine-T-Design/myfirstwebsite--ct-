@@ -12,16 +12,22 @@ is
 a 
 comment */
 
-let x; //this is a declaration 
-let y; // this is a declaration 
+let x; //this is a declaration;
+let y; // this is a declaration; 
 
-x=100 
 
-let x=123; //this is both a declaration and an assignment 
+let x=123; //this is both a declaration and an assignment; 
 
 let age = 25;
 let price = 10.99;
 let gpa = 2.1;
 console.log("You are ${age} years old");
 console.log("The price is ${price}");
-console.log("Your gpa is${gpa}")
+console.log("Your gpa is${gpa}");
+
+let firstName = "Bro";
+console.log(typeof firstName);
+console.log("Your name is ${firstName}");
+//strings can include numbers, but we can't use those numbers in math;
+
+//booleans are either true or false;
