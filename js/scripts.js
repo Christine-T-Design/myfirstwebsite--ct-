@@ -1,29 +1,15 @@
 console.log("Ni Haody!");
 console.log ("I like dumplings");
 
-window.alert("this is an alert!");
 window.alert("We're out of dumplings!");
 
-// this is a comment 
 
-/*
-this 
-is 
-a 
-comment */
+//1-1-2-slip-slip-roll left-6-2-3-duck-2-3-2;
 
-let x; //this is a declaration;
-let y; // this is a declaration; 
+let fullName = "Christine Thammasouk";
+let age = 30;
+let isStudent = false; 
 
-
-
-//let age = 25;
-//let price = 10.99;
-//let gpa = 2.1;
-
-let firstName = "Bro"; 
-//why is this a string;
-console.log(typeof firstName);
-console.log(`Your name is ${firstName}`);
-console.log
-
+document.getElementById("p1").textContent = `Youe name is ${fullName}`;
+document.getElementById("p2").textContent = `You are ${age}`;
+document.getElementById("p3").textContent = `Enrolled ${isStudent}`;
