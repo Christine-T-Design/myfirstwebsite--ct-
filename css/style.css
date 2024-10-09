@@ -96,10 +96,13 @@ a:focus {
 
 header {
     background-color: #064789;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0, 4px;
     margin: auto;
     border-bottom: 3px solid #427AA1;
+}
+
+main {
+    padding-top: 56px;
 }
 
 .container {
@@ -135,17 +138,33 @@ header {
 nav>ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav>ul>li {
-    display: inline-block;
-}
+
 
 nav>ul>li>a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #427aa1;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+    position: relative;
+    padding: 24px 0 0;
+
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(80, 156, 255, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
 }
 
 #work {
@@ -244,6 +263,8 @@ footer {
     animation-timing-function: linear;
 }
 
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -268,6 +289,14 @@ Medium devices (640px and larger)
         margin-top: 4px;
     }
 
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    nav>ul {
+        margin: 1em 0;
+    }
+
     #hero span {
         display: block;
     }
@@ -285,6 +314,11 @@ Medium devices (640px and larger)
     [class*="col-"] {
         float: left;
         padding: 0px 10px;
+    }
+
+    .logo {
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
@@ -310,6 +344,10 @@ Large devices (1024px or larger)
         width: auto;
         float: right;
         margin-top: 4px;
+    }
+
+    nav>ul>li {
+        display: inline-block;
     }
 
     #hero span {
