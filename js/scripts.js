@@ -1,17 +1,10 @@
-console.log("Ni Haody!");
-console.log ("I like dumplings");
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-window.alert("We're out of dumplings!");
-
-
-//1-1-2-slip-slip-roll left-6-2-3-duck-2-3-2;
-
-let fullName = "Christine Thammasouk";
-let age = 30;
-let isStudent = false; 
-
-document.getElementById("p1").textContent = `Youe name is ${fullName}`;
-document.getElementById("p2").textContent = `You are ${age}`;
-document.getElementById("p3").textContent = `Enrolled ${isStudent}`;
-
-console.log(thisVariableDoesntExist); //Will output undefined; 
+function menuToggle() {
+    var x = document.getElementById('myNavtoggle');
+    if (x.className === 'navtoggle') {
+        x.className += ' responsive';
+    } else {
+        x.className = 'navtoggle';
+    }
+}
