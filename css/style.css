@@ -12,7 +12,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    color: midnigtblue;
+    color: black;
 }
 
 h1,
@@ -48,7 +48,7 @@ img {
 
 a,
 a:visited {
-    color: midnightblue;
+    color: lightblue;
     text-decoration: none;
     /* No underlining */
 }
@@ -96,7 +96,7 @@ a:focus {
 
 header {
     background-color: #064789;
-    padding: 10px 0, 4px;
+    padding: 10px 0 4px;
     margin: auto;
     border-bottom: 3px solid #427AA1;
 }
@@ -125,8 +125,8 @@ main {
 }
 
 .logo {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 75px;
+    max-height: 75px;
 }
 
 .profile_picture {
@@ -157,7 +157,6 @@ nav>ul>li>a {
 .navtoggle,
 .navtoggle.responsive {
     position: relative;
-    padding: 24px 0 0;
 
 }
 
@@ -178,9 +177,6 @@ nav>ul>li>a {
     font-size: 20px;
 }
 
-#work {
-    background-color: bluevilet3;
-}
 
 footer {
     text-align: center;
@@ -286,7 +282,7 @@ Medium devices (640px and larger)
         font-weight: 400;
         font-size: 18px;
         font-style: normal;
-        color: midnigtblue;
+        color: black;
     }
 
     header {
@@ -336,8 +332,8 @@ Medium devices (640px and larger)
     }
 
     .logo {
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 75px;
+        max-height: 75px;
     }
 }
 
@@ -351,7 +347,7 @@ Large devices (1024px or larger)
         font-weight: 400;
         font-size: 18px;
         font-style: normal;
-        color: midnigtblue;
+        color: black;
     }
 
     header {
