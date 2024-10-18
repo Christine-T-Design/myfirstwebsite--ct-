@@ -125,8 +125,8 @@ main {
 }
 
 .logo {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .profile_picture {
@@ -185,11 +185,7 @@ footer {
 .socialmedia {
     width: 100px;
     display: inline-block;
-}
-
-
-.socialmedia svg {
-    width: 100px;
+    align-items: center;
 }
 
 #aboutme {
