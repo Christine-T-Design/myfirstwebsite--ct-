@@ -9,37 +9,37 @@ Secondary Color (Light Steel Blue): #B0C4DE;
 body {
     background-color: #ffffff;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
     font-style: normal;
-    color: black;
+    color: #00171f;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    line-height: 1.4;
+    line-height: 1.25;
 }
 
 h1 {
-    font-size: 2.75em;
-    font-weight: 700;
+    font-size: 2.25em;
+    font-weight: 550;
 }
 
 h2 {
-    font-size: 2.25em;
-    font-weight: 700;
+    font-size: 1.75em;
+    font-weight: 500;
 }
 
 h3 {
-    font-size: 1.75em;
+    font-size: 1.50em;
     font-weight: 400;
 }
 
 h4 {
     font-size: 1.35em;
-    font-weight: 400;
+    font-weight: 350;
 }
 
 img {
@@ -48,7 +48,7 @@ img {
 
 a,
 a:visited {
-    color: lightblue;
+    color: #add8e6;
     text-decoration: none;
     /* No underlining */
 }
@@ -64,7 +64,7 @@ a:focus {
 .button:visited {
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #064789;
+    background-color: #72C8DF;
     color: #ffffff;
     /* needed to override the default link color */
     font-weight: 400;
@@ -84,45 +84,57 @@ a:focus {
 
 .button.contact {
     background-color: transparent;
-    color: #427aa1;
+    color: #1B9AAA;
     text-transform: uppercase;
-    border: 2px solid #064789;
+    border: 2px solid #72C8DF;
 }
 
 .button.contact:hover {
-    background-color: #427aa1;
+    background-color: #72C8DF;
     color: #ffffff;
 }
 
 header {
-    background-color: ffffff;
-    padding: 10px 0 4px;
+    background-color: #ffffff;
     margin: auto;
-    border-bottom: 3px solid #427AA1;
+    border-bottom: 1.25px solid #00171f;
 }
 
 main {
-    padding-top: 24px;
+    padding-top: 5px;
 }
 
 .container {
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 0;
     margin: 0 auto;
 }
 
 .row {
     margin: 25px 0;
     /* 25px top and bottom, 0 left and right */
+    padding: 15px;
 }
 
 #hero {
-    background-color: #427aa1;
+    background-color: #72C8DF;
     text-align: center;
     /* Centers text */
     margin: 0 auto;
+    border-bottom: 1.25px solid #00171f;
 
 }
+
+#work {
+    background-color: #f5f1e3;
+    border-bottom: 1.25px solid #00171f;
+}
+
+.socialmediaicons {
+    padding: 5px;
+
+}
+
 
 .logo {
     max-width: 200px;
@@ -146,7 +158,7 @@ nav>ul {
 nav>ul>li>a {
     padding: 0 15px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 525;
     color: #427aa1;
 }
 
@@ -163,7 +175,7 @@ nav>ul>li>a {
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(80, 156, 255, 0.5);
+    border-top: 1px solid #509cff80;
 }
 
 .navtoggle.responsive li:last-child {
@@ -183,7 +195,7 @@ footer {
 }
 
 .socialmedia {
-    width: 100px;
+    width: 25px;
     display: inline-block;
     align-items: center;
 }
@@ -276,9 +288,9 @@ Medium devices (640px and larger)
         background-color: #ffffff;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
-        color: black;
+        color: #00171f;
     }
 
     header {
@@ -328,8 +340,8 @@ Medium devices (640px and larger)
     }
 
     .logo {
-        max-width: 75px;
-        max-height: 75px;
+        max-width: 135px;
+        max-height: 135px;
     }
 }
 
