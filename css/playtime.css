@@ -25,11 +25,15 @@ h4 {
 h1 {
     font-size: 2.25em;
     font-weight: 550;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
     font-size: 1.75em;
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -101,7 +105,7 @@ header {
 }
 
 main {
-    padding-top: 5px;
+    padding-top: 0;
 }
 
 .container {
@@ -111,7 +115,7 @@ main {
 }
 
 .row {
-    margin: 25px 0;
+    margin: 20px 0;
     /* 25px top and bottom, 0 left and right */
     padding: 15px;
 }
@@ -295,7 +299,9 @@ Medium devices (640px and larger)
 
     header {
         text-align: unset;
-        padding: 15px 0 13px;
+        padding: 10px 0 5px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     nav {
