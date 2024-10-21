@@ -60,7 +60,7 @@ a:visited {
 
 a:hover,
 a:focus {
-    color: #1107e1;
+    color: #427aa1;
     text-decoration: underline;
     /* Underlining when hovering over a link */
 }
@@ -75,7 +75,7 @@ a:focus {
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #305f99;
+    border-bottom: 2px solid #064789;
     /* width of the border, type, color */
     transition: 0.2s opacity;
     transition-property: opacity;
@@ -297,9 +297,10 @@ Medium devices (640px and larger)
         background-color: #ffffff;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
-        color: black;
+    color: #00171f;
+
     }
 
     header {
