@@ -198,6 +198,8 @@ nav>ul>li>a {
 
 footer {
     text-align: center;
+    border-top: 1.25px solid #00171f;
+
 }
 
 .socialmedia {
